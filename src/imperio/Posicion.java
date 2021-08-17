@@ -19,5 +19,4 @@ public class Posicion implements Desplazable {
 		return Math.sqrt(Math.pow(this.posicionX - otraPosicion.posicionX, 2)
 				+ Math.pow(this.posicionY - otraPosicion.posicionY, 2));
 	}
-
 }
